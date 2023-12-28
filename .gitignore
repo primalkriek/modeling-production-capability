@@ -31,3 +31,26 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Specific folders which are indicated to be ignored
+**/*ignoreme/
+.git/
+__pycache__/
+.ipynb_checkpoints/
+datascience_repo/
+python3/
+bin/
+lib/
+moproca/
+
+# Specific files to ignore
+*.ignoreMe
+confluence NB.ipynb
+production_capability_start.ipynb
+Untitled.ipynb
+geheim.py
+*.pdf
+# *.png
+*.jpeg
+*.jpg
+*.xml
