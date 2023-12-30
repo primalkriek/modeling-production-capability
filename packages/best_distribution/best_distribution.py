@@ -37,9 +37,11 @@ def find_best_fit_distribution_continuous(data, distributions=None):
 
     return best_distribution, best_params
 
-def volgende_vijf_dagen_voorspellen(data_mean,data_std):
+def simulatie(data_mean,data_std, msr, aantal_dagen):
     voorspellingen = []
-    for i in range(5):
+    for i in range(aantal_dagen):
         voorspelling_dag = abs(int(np.random.normal(data_mean, data_std)))
+        while voorspelling_dag > msr:
+            voorspelling_dag = abs(int(np.random.normal(data_mean, data_std)))
         voorspellingen.append(voorspelling_dag)
     return voorspellingen
