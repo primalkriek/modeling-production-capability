@@ -19,7 +19,7 @@ https://docs.anaconda.com/free/anaconda/install/index.html
 git clone https://github.com/primalkriek/modeling-production-capability.git
 ```
 
-- install a new conda environemnt via 
+- install a new conda environment via 
 
 ```
 conda env create --file environment.yml
