@@ -49,6 +49,7 @@ confluence NB.ipynb
 production_capability_start.ipynb
 Untitled.ipynb
 geheim.py
+pyvenv.cfg
 *.pdf
 # *.png
 *.jpeg
