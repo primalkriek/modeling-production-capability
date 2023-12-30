@@ -32,9 +32,12 @@ directory
 jupyter notebook .
 ```
 
-- a browser window should open with your directory structure, if not, copy one of the lines from 
-the cmd or terminal window, yours should look like this too:
+- a browser window should open with your directory structure:
+
 ![jupyter notebook directory view](<Screenshot 2023-12-30 at 21.46.01.png>)
+
+if not, copy one of the lines from the cmd or terminal window, yours should look something like this:
+
 ```
 http://localhost:8889/?token=ba2a474c4ea9644f29e053daa493124560a438d4b3ae521c
 or http://127.0.0.1:8889/?token=ba2a474c4ea9644f29e053daa493124560a438d4b3ae521c
